@@ -1,0 +1,604 @@
+.header{
+  display: flex;
+  z-index: 2;
+  flex-direction: row;
+  text-align: center;
+  align-content: center;
+  padding-left: calc(50% - 471px);
+
+  width:100%;
+  height:53px;
+  background:  #252525;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  overflow: hidden;
+}
+
+.logo-container-picture a img{
+  height: 53px;
+  width: 63px;
+  background: #333;
+}
+
+.container{
+  font-style: normal;
+  font-weight: normal;
+  font-family:'Orbitron', sans-serif;
+  font-size: 24px;
+  line-height: 27px;
+  margin-top:12px;
+  margin-bottom:9.5px;
+  margin-left:-10px;
+  color: rgb(255, 255, 255);
+}
+
+.container > a{
+  color:rgb(238, 194, 71);
+}
+
+.nav{
+  margin-left:150px;
+  margin-top:14.5px;
+  margin-bottom:11.5px;
+  overflow: hidden;
+}
+
+.nav a{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 80%;
+  line-height: 27px;
+  font-family:'Orbitron', sans-serif;
+  padding: 20px;
+}
+
+.nav a:hover{
+    color: rgb(238, 194, 71);
+}
+
+.logo{
+
+  box-sizing: border-box;
+  display:  flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:  10px 0px 0px 0px;
+}
+
+.some{
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+
+.gcontainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(143, 149, 153);
+}
+
+
+
+footer{
+  background-color: rgb(238, 194, 71);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-family:'Times New Roman', Times, serif
+}
+
+footer p{
+  margin-bottom: 1%;
+  font-size: 110%;
+}
+
+footer p a{
+  color: rgb(255, 255, 255);
+}
+
+.inner{
+  width: 60%;
+  background-color:rgb(197, 193, 193);
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+.omeni{
+  padding: 5%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.omeni span{
+  font-weight: 600;
+}
+
+.paragraf{
+  display:block;
+  width: 80%;
+  background-color:rgb(211, 209, 209);
+  color: black;
+  opacity: 0.7;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  border-radius: 15%;
+}
+
+.omeni img{
+  padding: 3%;
+  width:50%;
+  height: 50%;
+}
+
+.sadrzaj{
+  padding: 5%;
+}
+
+.paragraf h1{
+  padding-bottom: 2%;
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sadrzaj h2{
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.video{
+  display:block;
+  width: 40%;
+  background-color: rgb(143, 149, 153);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.video iframe{
+  width: 100%;
+  height: 400px;
+}
+
+.obrazacc{
+  display:block;
+  background-color:rgb(197, 193, 193);
+  width: 50%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  border-radius: 5%;
+}
+
+.obrazacc form{
+  padding: 5%;
+  text-align: center;
+  opacity: 11;
+}
+
+.obrazacc h2{
+  padding-top: 2%;
+  text-align: center;
+  font-size: 300%;
+  color:rgb(255, 255, 255);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.obrazacc input{
+  padding: 15px;
+  margin: 1%;
+  width: 60%;
+  border-radius: 4%;
+  border-style: groove;
+  border-color: crimson;
+}
+
+.obrazacc label{
+  font-size: 180%;
+  font-family: 'Orbitron', sans-serif;
+  color: crimson;
+}
+
+.gumbi input{
+  padding: 20px;
+  width: 30%;
+  margin: 5%;
+  font-size: 80%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.registracijaGlavna{
+  display:block;
+  background-color:rgb(197, 193, 193);
+  width: 50%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  border-radius: 5%;
+}
+
+.registracijaGlavna form{
+  padding: 5%;
+  text-align: center;
+  opacity: 11;
+}
+
+.registracijaGlavna h2{
+  padding-top: 2%;
+  text-align: center;
+  font-size: 300%;
+  color:rgb(255, 255, 255);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.registracijaGlavna input{
+  padding: 15px;
+  margin: 1%;
+  width: 40%;
+  border-radius: 4%;
+  border-style: groove;
+  border-color: crimson;
+}
+
+.registracijaGlavna label{
+  font-size: 150%;
+  font-family: 'Orbitron', sans-serif;
+  color: crimson;
+}
+
+.gumbiRegistracija input{
+  padding: 20px;
+  width: 30%;
+  margin: 5%;
+  font-size: 80%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.obrazacGlavna{
+  display:block;
+  background-color:rgb(197, 193, 193);
+  width: 50%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  border-radius: 3%;
+}
+fieldset{
+  margin: 5%;
+  border: 3px solid rgb(255, 255, 255);
+}
+.obrazacGlavna form{
+  padding: 5%;
+  text-align: center;
+  opacity: 11;
+}
+
+.obrazacGlavna h2{
+  padding-top: 2%;
+  text-align: center;
+  font-size: 300%;
+  color:rgb(255, 255, 255);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.obrazacGlavna h3{
+  text-align: center;
+  color:crimson;
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 4%;
+}
+
+.obrazacGlavna input{
+  padding: 15px;
+  margin-bottom: 4%;
+  width: 40%;
+  border-radius: 4%;
+  border-style: groove;
+  border-color: crimson;
+}
+
+.obrazacGlavna label{
+  font-size: 120%;
+  font-family: 'Orbitron', sans-serif;
+  color: crimson;
+}
+
+.obrazacGlavna select{
+  margin-bottom: 4%;
+  margin-top: 2%;
+  height: 190px;
+}
+
+.boja{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.kategorije input{
+  text-align: center;
+  text-align: center;
+}
+
+.kategorije label{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+  color: rgb(0, 0, 0);
+  font-size: 120%;
+}
+
+.kategorije{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.ocjenaBorbe{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ocjenaBorbe input{
+  padding: 0;
+}
+
+.boja{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+.check input{
+margin-top: 3%;
+margin-bottom: 0;
+}
+.check label{
+  color: black;
+}
+
+.detaljborbe textarea{
+  margin-top: 5%;
+}
+
+.detaljborbe{
+  margin-top: 3%;
+}
+
+
+.pocetni{
+  display: block;
+  width: 80%;
+  background-color: rgb(238, 194, 71);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tablica{
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tablica table, th, td{
+  border: 3px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+.tablica th, td{
+  padding: 10px;
+} 
+
+.tablica td{
+  text-align: center;
+}
+
+.tablica th{
+  font-family: 'Lekton', sans-serif;
+}
+
+@media(min-width: 1920px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  .header{
+    height: 120px;
+    background-color: rgb(238, 194, 71);
+  }
+
+  .tablica{
+    font-size: 140%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .container{
+    font-size: 300%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -400px;
+  }
+
+  .container a{
+    color: #252525;
+  }
+
+  .nav{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .nav a{
+    font-size: 150%;
+    color: #252525;
+  }
+
+  .nav a:hover{
+    color: white;
+  }
+
+  .logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 50px;
+  }
+
+  .some{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+  }
+
+  footer p{
+    margin-bottom: 1%;
+    font-size: 160%;
+  }
+
+  footer p a{
+    color: #252525;
+  }
+
+  .obrazacc input{
+    padding: 3%;
+  }
+  
+  .obrazacc label{
+    font-size: 250%;
+  }
+
+  .registracijaGlavna input{
+    padding: 20px;
+  }
+  
+  .registracijaGlavna label{
+    font-size: 180%;
+  }
+
+  .obrazacGlavna h2{
+    font-size: 300%;
+  }
+  
+  
+  .obrazacGlavna input{
+    padding: 2%;
+  }
+  
+  .obrazacGlavna label{
+    font-size: 170%;
+  }
+
+  .kategorije input{
+    width: 2em;
+    height: 2em;
+    text-align: left;
+    margin-right: -20%;
+  }
+
+  .kategorije{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .kategorije label{
+    float: right;
+    margin-right: 10%;
+  }
+  
+  .omeni{
+    font-size: 200%;
+  }
+
+  .ocjenaBorbe input{
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .sadrzaj h1{
+    font-size: 300%;
+  }
+
+  .sadrzaj cite{
+    font-size: 150%;
+  }
+
+  .mirko{
+    font-size: 120%;
+  }
+
+  .sadrzaj a{
+    font-size: 150%;
+  }
+
+  .sadrzaj h2{
+    font-size: 200%;
+  }
+
+  .sadrzaj p{
+    font-size: 150%;
+  }
+
+  .sudci optgroup{
+    font-size: 170%;
+  }
+  .gumb-posalji input{
+    font-size: 120%;
+  }
+  .detaljborbe textarea{
+    font-size: 180%;
+  }
+}
+
+.gumb-posalji input{
+margin-top: 5%;
+width: 50%;
+}
+
+.gumb-posalji:hover input{
+  background-color: crimson;
+  color: white;
+}

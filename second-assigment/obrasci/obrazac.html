@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="naslov" content="Obrazac">
+  <meta name="autor" content="Kristijan Čulina">
+  <meta name="opis" content="23/02/2021; obrazac; borac; boja;">
+  <link rel="stylesheet" href="../css/kculina.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Syncopate&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <title>WebDiP 1.zadaća</title>
+</head>
+
+<body>
+
+
+  <div class="header">
+    <div class="container"><a href="#sadrzajObrazac">OBRAZAC</a></div>
+    <div class="nav">
+      <a href="../index.html">POČETNA</a>
+      <a href="../autor.html">AUTOR</a>
+      <a href="prijava.html">PRIJAVA</a>
+      <a href="registracija.html">REGISTRACIJA</a>
+      <a href="../galerija.html">GALERIJA</a>
+      <a href="../era.html">ERA</a>
+      <a href="../navigacijski.html">NAVIGACIJSKI</a>
+    </div>
+    <div class="logo">
+      <a href="https://www.instagram.com/" target="_blank"><img src="../multimedija/instagram.png" alt="" class="some">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="../multimedija/facebook.png" alt="" class="some">
+      </a>
+      <a href=""><img src="../multimedija/rss.png" alt="" class="some"></a>
+    </div>
+  </div>
+
+
+  <div class="obrazacGlavna">
+
+    <section id="sadrzajObrazac">
+
+      <h2 class="tekst">OBRAZAC</h2>
+      <h3>Ispunite obrazac i osvojite ulaznicu za sljedeći UFC event</h3>
+      <form name="obrazac" id="obrazac" method="post"
+        action="http://barka.foi.hr/WebDiP/2020/materijali/zadace/ispis_forme.php">
+        <fieldset>
+        <legend style="text-align: center; padding-bottom: 20px; font-size: 100%; color:#252525; font-family: 'Cairo', sans-serif;" >OPĆI PODATCI O BORBI</legend>
+        <label for="prviBorac">PLAVI BORAC: </label> <br>
+        <input type="text" id="prviBorac" name="prviBorac"> <br>
+        <label for="drugiBorac">CRVENI BORAC: </label> <br>
+        <input type="text" id="drugiBorac" name="drugiBorac"> <br>
+        <label for="datum">DATUM BORBE: </label> <br>
+        <input id="datum" type="date" name="datum"/><br>
+        <label for="vrijeme">VRIJEME BORBE: </label> <br>
+        <input id="vrijeme" type="time" name="vrijeme" /><br>
+      </fieldset>
+        <label>KATEGORIJA BORBE: </label>
+        <div class="kategorije">
+          <input type="radio" id="FLYWEIGHT" name="kategorija" value="FLYWEIGHT">
+          <label for="FLYWEIGHT">FLYWEIGHT</label> <br>
+          <input type="radio" id="BANTAMWEIGHT" name="kategorija" checked value="BANTAMWEIGHT">
+          <label for="BANTAMWEIGHT">BANTAMWEIGHT</label> <br>
+          <input type="radio" id="FEATHERWEIGHT" name="kategorija" value="FEATHERWEIGHT">
+          <label for="FEATHERWEIGHT">FEATHERWEIGHT</label> <br>
+          <input type="radio" id="LIGHTWEIGHT" name="kategorija" value="LIGHTWEIGHT">
+          <label for="LIGHTWEIGHT">LIGHTWEIGHT</label> <br>
+          <input type="radio" id="WELTERWEIGHT" name="kategorija" value="WELTERWEIGHT">
+          <label for="WELTERWEIGHT">WELTERWEIGHT</label> <br>
+          <input type="radio" id="MIDDLEWEIGHT" name="kategorija" value="MIDDLEWEIGHT">
+          <label for="MIDDLEWEIGHT">MIDDLEWEIGHT</label> <br>
+          <input type="radio" id="LIGHTHEAVYWEIGHT" name="kategorija" value="LIGHTHEAVYWEIGHT">
+          <label for="LIGHTHEAVYWEIGHT">LIGHTHEAVYWEIGHT</label> <br>
+          <input type="radio" id="HEAVYWEIGHT" name="kategorija" value="HEAVYWEIGHT">
+          <label for="HEAVYWEIGHT">HEAVYWEIGHT</label> <br>
+        </div>
+        <label for="Sudci">Sudci koji su bodovali meč:</label> <br>
+        <div class="sudci">
+          <select id="Sudci" name="Sudci[]" multiple size="3">
+            <optgroup label="Amerika">
+              <option value="Eduardo Herdy">Eduardo Herdy</option>
+              <option value="Glenn Trowbridge">Glenn Trowbridge</option>
+              <option value="Osiris Maia">Osiris Maia</option>
+              <option value="Tony Weeks">Tony Weeks</option>
+              <option value="Jospeh Terell">Jospeh Terell</option>
+            </optgroup>
+            <optgroup label="Europa">
+              <option value="Hallison Potterns">Hallison Potterns</option>
+              <option value="Otto Toriero">Otto Toriero</option>
+              <option value="Alessandro Veirera">Alessandro Veirera</option>
+              <option value="Leon Brid">Leon Brid</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <br>
+        <fieldset>
+          <legend style="text-align: center; padding-bottom: 20px; font-size: 100%; color:#252525; font-family: 'Cairo', sans-serif;" >OSOBNE INFORMACIJE</legend>
+        <label for="ocjenaBorbe">OCJENA BORBE:</label> <br>
+        <div class="ocjenaBorbe">
+          <input type="range" id="ocjenaBorbe" name="ocjenaBorbe" min="0" max="100"><br>
+        </div>
+        <label for="bojaHlaca">NAJDRAŽA BOJA UFC KRATKIH HLAČA: </label> <br>
+        <div class="boja">
+          <input type="color" id="bojaHlaca" name="bojaHlaca"> <br>
+        </div>
+        <label for="pogledaliBorbu">JESTE LI POGLEDALI BORBU VIŠE OD 1 PUT:</label> <br>
+
+        <div class="check">
+          <input type="checkbox" id="pogledaliBorbu" name="pogledaliBorbu" value="da"> <br>
+          <label for="pogledaliBorbu"> DA</label> <br>
+        </div>
+        <div class="detaljborbe">
+          <label for="detalj">NAJZANIMLJIVIJI DETALJ BORBE: </label> <br>
+          <textarea id="detalj" name="detalj" cols="30" rows="10"></textarea> <br>
+        </div>
+      </fieldset>
+        <div class="gumb-posalji">
+          <input type="submit" value="Pošalji" name="submit">
+        </div>
+      </form>
+    </section>
+  </div>
+
+
+  <footer>
+    <p>&copy; 2021 <a href="../autor.html">Kristijan Čulina</a></p>
+    <a href="http://validator.w3.org/check?uri=https://barka.foi.hr/WebDiP/2020/zadaca_02/kculina/obrasci/obrazac.html">
+      <img alt="HTML5 logo" src="https://barka.foi.hr/WebDiP/2020/materijali/zadace/HTML5.png" width="50" height="50" />
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://barka.foi.hr/WebDiP/2020/zadaca_02/kculina/obrasci/obrazac.html">
+    <img src="https://barka.foi.hr/WebDiP/2020/materijali/zadace/CSS3.png" alt="CSS logo" width="50" height="55"/>
+    </a>
+  </footer>
+
+</body>
+
+</html>

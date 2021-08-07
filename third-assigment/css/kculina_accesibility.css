@@ -1,0 +1,49 @@
+.inner, .paragraf{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  word-spacing: 35px;
+  letter-spacing: 12px;
+}
+
+
+.obrazacGlavna-acces{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(211, 209, 209);
+  font-size: 19px;
+  word-spacing: 35px;
+  letter-spacing: 12px;
+  width: 80%;
+}
+
+.obrazacGlavna-acces .pristupacnost{
+  position: absolute;
+  left: 105%;
+}
+
+.obrazacGlavna-acces label, .obrazacGlavna-acces input, .obrazacGlavna-acces h2, .obrazacGlavna-acces h3{
+  color: black;
+  border-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.obrazacGlavna-acces fieldset{
+  margin-right: auto;
+  margin-left: -2.7%;
+}
+
+.obrazacGlavna-acces .parent,.obrazacGlavna-acces .datum-parent,.obrazacGlavna-acces .sudac-parent,.obrazacGlavna-acces .boja-parent,.obrazacGlavna-acces .detalj-parent{
+white-space: normal;
+}
+
+.obrazacGlavna-acces .parent .pravokutnik,.obrazacGlavna-acces .datum-parent .pravokutnik2,.obrazacGlavna-acces .sudac-parent .pravokutnik3,.obrazacGlavna-acces .boja-parent .pravokutnik4,.obrazacGlavna-acces .detalj-parent .pravokutnik5{
+color: black;
+background-color: white;
+}
+
+.obrazacGlavna-acces .parent .pravokutnik{
+top:-10px;
+}
+
+.obrazacGlavna-acces .boja-parent .pravokutnik4{
+  top: 40px;
+}
